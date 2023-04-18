@@ -35,3 +35,9 @@ else{
  cout<<"Odd"<<endl;
 }
 
+05.Problem: Typing a Digit in Words
+Write a program that inputs an integer in the range [1 ... 9] and outputs it in words in English. If the 
+number is out of range, print "number too big".
+Sample Input and Output
+Input Output Input Output Input Output Input Output 
+5     five   1     one    9     nine   10    number too big
