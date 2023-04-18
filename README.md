@@ -41,3 +41,7 @@ number is out of range, print "number too big".
 Sample Input and Output
 Input Output Input Output Input Output Input Output 
 5     five   1     one    9     nine   10    number too big
+Hints and Guidelines
+We can use a series of if-else statements to examine the possible 11 cases.
+
+
