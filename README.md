@@ -34,6 +34,12 @@ if(num%2){
 else{
  cout<<"Odd"<<endl;
 }
+04.Problem: Finding the Greater Number
+Write a program that inputs two integers and prints the larger one.
+Sample Input and Output
+Input Output Input Output Input Output Input Output 
+5     5      3     5      10    10     -5    5
+3            5            10           5
 
 05.Problem: Typing a Digit in Words
 Write a program that inputs an integer in the range [1 ... 9] and outputs it in words in English. If the 
