@@ -65,3 +65,22 @@ Input Output Input Output Input Output Input Output
 20    6      175   37     2703  270.3  15875 1589.5
       26           212          2793.3       17464.5
 
+07.Problem: Summing Up Seconds
+Three athletes finish in a particular number of seconds (between 1 and 50). Write a program that 
+introduces the times of the contestants and calculates their total time in "minutes:seconds" format. 
+Seconds need to be zeroed at the front (2 -> "02", 7 -> "07", 35 -> "35").
+Sample Input and Output
+Input Output Input Output Input Output Input Output 
+35    2:04   22    1:03   50    2:29   14    0:36
+45           7            50           12
+44           34           49           10
+
+
+
+
+
+
+
+
+      
+
