@@ -75,6 +75,29 @@ Input Output Input Output Input Output Input Output
 45           7            50           12
 44           34           49           10
 
+08.Problem: Metric Converter
+Write a program that convert a distance between the following 8 units of measure: m, mm, cm, mi, in, 
+km, ft, yd. Use the below table:
+Input measure Output measure            Input measure Output measure 
+1 meter (m)   1000 millimeters (mm)     1 meter (m)   0.001 kilometers (km)
+1 meter (m)   100 centimeters (cm)      1 meter (m)   3.2808399 feet (ft)
+1 meter (m)   0.000621371192 miles (mi) 1 meter (m)   1.0936133 yards (yd)
+1 meter (m)   39.3700787 inches (in)
+
+You have three input lines:
+• First line: the number for converting.
+• Second line: the input unit.
+• Third line: the output unit (for result).
+
+Sample Input and Output
+Input Output      Input Output           Input Output 
+12    39370.0788  150   9503999.99393599 450   0.41147999937455
+km                mi                     yd
+ft                in                     km
+
+
+
+
 
 
 
