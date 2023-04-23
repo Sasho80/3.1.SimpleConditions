@@ -95,6 +95,13 @@ Input Output      Input Output           Input Output
 km                mi                     yd
 ft                in                     km
 
+09.Problem: Guess the Password
+Write a program that inputs a password (one line with random text) and checks if the input matches
+the phrase "s3cr3t!P@ssw0rd". If it matches, print "Welcome", otherwise "Wrong password!".
+Sample Input and Output
+Input  Output      Input          Output      Input       Output 
+qwerty Wrong      s3cr3t!P@ssw0rd Welcome     s3cr3t!p@ss Wrong password!
+       password!                  
 
 
 
