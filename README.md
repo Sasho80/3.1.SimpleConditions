@@ -103,7 +103,13 @@ Input  Output      Input          Output      Input       Output
 qwerty Wrong      s3cr3t!P@ssw0rd Welcome     s3cr3t!p@ss Wrong password!
        password!                  
 
-
+10.Problem: Numbers from 100 to 200
+Write a program that inputs an integer and checks if it is below 100, between 100 and 200 or over 
+200. Print the appropriate message as in the examples below.
+128 Programming Basics with C#
+Sample Input and Output
+Input Output        Input Output              Input Output 
+95    Less than 100 120   Between 100 and 200 210   Greater than 200
 
 
 
