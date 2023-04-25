@@ -111,6 +111,14 @@ Sample Input and Output
 Input Output        Input Output              Input Output 
 95    Less than 100 120   Between 100 and 200 210   Greater than 200
 
+11.Problem: Identical Words
+Write a program that inputs two words and checks if they are the same. Do not make difference 
+between uppercase and lowercase letters. You have to print "yes" or "no".
+
+Sample Input and Output
+Input Output Input   Output Input Output Input  Output 
+Hello yes    SoftUni yes    Soft  no     banana no
+Hello        SoftUni        Uni          lemon
 
 
 
