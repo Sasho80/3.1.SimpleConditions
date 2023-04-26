@@ -120,7 +120,16 @@ Input Output Input   Output Input Output Input  Output
 Hello yes    SoftUni yes    Soft  no     banana no
 Hello        SoftUni        Uni          lemon
 
-
+12.Problem: Speed Assessment
+Write a program that inputs the speed (decimal number) and prints speed information. For speed up 
+to 10 (inclusive), print "slow". For speed over 10 and up to 50, print "average". For speed over 50 and 
+up to 150, print "fast". For speed over 150 and up to 1000, print "ultra fast". For higher speed, print 
+"extremely fast".
+Sample Input and Output
+Input Output Input Output Input Output 
+8     slow   126   fast   3500  extremely fast
+Input Output  Input Output     Input Output
+49.5  average 160   ultra fast 50000 extremely fast
 
 
 
