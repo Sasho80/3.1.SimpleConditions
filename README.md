@@ -131,6 +131,28 @@ Input Output Input Output Input Output
 Input Output  Input Output     Input Output
 49.5  average 160   ultra fast 50000 extremely fast
 
+13.Problem: Areas of Figures
+Write a program that inputs the sizes of a geometric figure and calculates its area. The figures are 
+four types: square, rectangle, circle and triangle.
+Chapter 3.1. Simple Conditions 129
+The first line of the input provides the type of the figure (square, rectangle, circle, triangle).
+• If the figure is a square, the next line provides one number – the length of its side.
+• If the figure is a rectangle, the next two lines we provide two numbers – the lengths of its sides.
+• If the figure is a circle, the next line provides one number – the radius of the circle.
+• If the figure is a triangle, the next two lines provide two numbers – the length of the side and 
+the length of its height.
+Round the result up to the third digit after the decimal point.
+Sample Input and Output
+Input  Output  Input     Output Input  Output  Input    Output 
+square 25      rectangle 17.5   circle 113.097 triangle 45
+5              7                6              4.5
+               2.5                             20
+
+
+
+
+
+
 
 
 
