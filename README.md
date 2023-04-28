@@ -148,7 +148,20 @@ square 25      rectangle 17.5   circle 113.097 triangle 45
 5              7                6              4.5
                2.5                             20
 
+Problem: Time + 15 Minutes
+Write a program that inputs hours and minutes of a 24-hour day and calculates what will be the time
+after 15 minutes. Print the result in hh:mm format. Hours are always between 0 and 23, and minutes 
+are always between 0 and 59. Hours are written with one or two digits. Minutes are always written 
+with two digits and zero at the front when needed.
+Sample Input and Output
+Input Output Input Output Input Output Input Output 
+ 1    2:01   0      0:16  23    0:14   11    11:23
+ 46          01           59           08
 
+Hints and Guidelines
+Add 15 minutes and check using a few conditions. If minutes are over 59, increase hours with 1 and
+reduce minutes with 60. Identically, check the case when hours are over 23. When you print the 
+minutes, you should check for zero at the front.
 
 
 
