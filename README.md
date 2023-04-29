@@ -163,7 +163,16 @@ Add 15 minutes and check using a few conditions. If minutes are over 59, increas
 reduce minutes with 60. Identically, check the case when hours are over 23. When you print the 
 minutes, you should check for zero at the front.
 
-
+15.Problem: * Numbers from 0 to 100 as English Words
+Write a program that converts a number in the range of [0 ... 100] into text (in English).
+Sample Input and Output
+Input Output      Input Output     Input Output 
+25    twenty five 42    forty two  6     six
+Hints and Guidelines
+First check for one-digit numbers and if the number is one-digit, print the appropriate word for it.
+Then check for two-digit numbers. Print them in two parts: left part (tens = number / 10) and right 
+part (units = number % 10). If the number has 3 digits, it must be 100 and can be considered a special 
+case.
 
 
 
