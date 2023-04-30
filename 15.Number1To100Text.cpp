@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
 #include <string>
+using namespace std;
 int main() {
 	int num;
 	int tens = 0;
@@ -10,7 +10,8 @@ int main() {
 	cin >> num;
 	if (num >= 0 && num <= 9)
 	{
-		switch (num) {
+		units = num % 10;
+		switch (units) {
 		case 0: str1 = "zero";
 			break;
 		case 1: str1 = "one";
@@ -32,6 +33,7 @@ int main() {
 		case 9: str1 = "nine";
 			break;
 		}
+		cout << str1 << endl;
 	} 	else if (num >= 10 && num <= 100) {
 		tens = num / 10;
 		units = num % 10;
@@ -104,14 +106,9 @@ int main() {
 					break;
 				}
 			}
-	}
-	if (num >= 0 && num <= 9) {
-		cout << str1 << endl;
-	}
-	else if (tens>=1&&units == 0||tens==1&&units!=0) {
+	}if (tens >= 1 && units == 0 || tens == 1 && units > 0) {
 		cout << str2 << endl;
-	}
-	else if (tens>=2&&units != 0) {
+	}else if (tens>=2&&units>0) {
 		cout<<str2 <<" "<< str1<< endl;
 	}
 	return 0;
